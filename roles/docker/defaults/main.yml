@@ -1,6 +1,6 @@
 ---
-docker_version: '17.03'
-docker_selinux_version: '17.03'
+docker_version: '17.12-bionic'
+docker_selinux_version: '17.12-bionic'
 
 docker_package_info:
   pkgs:
@@ -43,3 +43,4 @@ dockerproject_apt_repo_gpgkey: 'https://apt.dockerproject.org/gpg'
 
 # Used to set docker daemon iptables options
 docker_iptables_enabled: "false"
+dockerproject_repo_enabled: false
